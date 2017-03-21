@@ -208,7 +208,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px; }
-@media (max-width: 1000px) {
+@media (max-width: 550px) {
   .sidebar .about .about-contents img {
     width: 47.5%;
     display: block;
@@ -246,7 +246,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px; }
-@media (max-width: 1000px) {
+@media (max-width: 550px) {
   .sidebar .shopinfo .shop-contents img {
     width: 47.5%;
     display: block;
