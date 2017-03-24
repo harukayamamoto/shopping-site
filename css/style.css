@@ -222,8 +222,11 @@ header {
       margin-bottom: 0.625rem;
       font-size: 1.1rem; }
     .sidebar .about .about-contents .about-text #more_btn {
-      width: 75%;
-      height: auto; }
+      display: block;
+      text-align: center;
+      margin-left: 25%;
+      margin-right: auto;
+      margin-bottom: 10px; }
   .sidebar .about .about-contents .clearfix::after, .sidebar .about .about-contents .bottun::after {
     content: '';
     display: block;
@@ -243,6 +246,7 @@ header {
     font-size: 0.75rem; }
   .sidebar .shopinfo .shop-contents #more_btn {
     display: block;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px; }
@@ -260,8 +264,11 @@ header {
       margin-bottom: 0.625rem;
       font-size: 1.1rem; }
     .sidebar .shopinfo .shop-contents .shop-text #more_btn {
-      width: 75%;
-      height: auto; }
+      display: block;
+      text-align: center;
+      margin-left: 25%;
+      margin-right: auto;
+      margin-bottom: 10px; }
   .sidebar .shopinfo .shop-contents:after {
     content: '';
     display: block;

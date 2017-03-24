@@ -361,8 +361,11 @@ header {
                     font-size: 1.1rem;
                 }
                 #more_btn {
-                    width: 75%;
-                    height: auto;
+                    display: block;
+                    text-align: center;
+                    margin-left: 25%;
+                    margin-right: auto;
+                    margin-bottom: 10px;
                 }
             }
             .clearfix::after {
@@ -397,6 +400,7 @@ header {
     
          #more_btn {
             display: block;
+            text-align: center;
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 10px;
@@ -423,8 +427,11 @@ header {
                     font-size: 1.1rem;
                 }
                 #more_btn {
-                    width: 75%;
-                    height: auto;
+                    display: block;
+                    text-align: center;
+                    margin-left: 25%;
+                    margin-right: auto;
+                    margin-bottom: 10px;
                 }
             }
             @include clearfix;
