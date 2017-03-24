@@ -334,10 +334,8 @@ header {
              font-size: 0.75rem;
          }
 
-         #more_btn {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
+         .more_btn {
+            text-align: center;
             margin-bottom: 10px;
          }
      }
@@ -360,12 +358,11 @@ header {
                     margin-bottom: 0.625rem;
                     font-size: 1.1rem;
                 }
-                #more_btn {
-                    display: block;
+                .more_btn {
                     text-align: center;
-                    margin-left: 25%;
-                    margin-right: auto;
-                    margin-bottom: 10px;
+                    margin-bottom: 1rem;
+                    margin-top: 1rem;
+                    max-width: 100%;
                 }
             }
             .clearfix::after {
@@ -398,17 +395,17 @@ header {
              font-size: 0.75rem;
          }
     
-         #more_btn {
-            display: block;
+         .more_btn {
             text-align: center;
-            margin-left: auto;
-            margin-right: auto;
             margin-bottom: 10px;
+            margin-bottom: 10px;
+        
          }
      }
     } // .shopinfo
 
 @media (max-width: 550px) {
+    
     .shopinfo {
         .shop-contents {
             img {
@@ -426,12 +423,11 @@ header {
                     margin-bottom: 0.625rem;
                     font-size: 1.1rem;
                 }
-                #more_btn {
-                    display: block;
+                .more_btn {
                     text-align: center;
-                    margin-left: 25%;
-                    margin-right: auto;
-                    margin-bottom: 10px;
+                    margin-bottom: 1rem;
+                    margin-top: 1rem;
+                    max-width: 100%;
                 }
             }
             @include clearfix;

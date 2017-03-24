@@ -203,10 +203,8 @@ header {
   .sidebar .about .about-contents p {
     font-family: "ヒラギノ角ゴ Pro W3", sans-serif;
     font-size: 0.75rem; }
-  .sidebar .about .about-contents #more_btn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .sidebar .about .about-contents .more_btn {
+    text-align: center;
     margin-bottom: 10px; }
 @media (max-width: 550px) {
   .sidebar .about .about-contents img {
@@ -221,12 +219,11 @@ header {
     .sidebar .about .about-contents .about-text p {
       margin-bottom: 0.625rem;
       font-size: 1.1rem; }
-    .sidebar .about .about-contents .about-text #more_btn {
-      display: block;
+    .sidebar .about .about-contents .about-text .more_btn {
       text-align: center;
-      margin-left: 25%;
-      margin-right: auto;
-      margin-bottom: 10px; }
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      max-width: 100%; }
   .sidebar .about .about-contents .clearfix::after, .sidebar .about .about-contents .bottun::after {
     content: '';
     display: block;
@@ -244,11 +241,9 @@ header {
   .sidebar .shopinfo .shop-contents p {
     font-family: "ヒラギノ角ゴ Pro W3", sans-serif;
     font-size: 0.75rem; }
-  .sidebar .shopinfo .shop-contents #more_btn {
-    display: block;
+  .sidebar .shopinfo .shop-contents .more_btn {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 10px;
     margin-bottom: 10px; }
 @media (max-width: 550px) {
   .sidebar .shopinfo .shop-contents img {
@@ -263,12 +258,11 @@ header {
     .sidebar .shopinfo .shop-contents .shop-text p {
       margin-bottom: 0.625rem;
       font-size: 1.1rem; }
-    .sidebar .shopinfo .shop-contents .shop-text #more_btn {
-      display: block;
+    .sidebar .shopinfo .shop-contents .shop-text .more_btn {
       text-align: center;
-      margin-left: 25%;
-      margin-right: auto;
-      margin-bottom: 10px; }
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      max-width: 100%; }
   .sidebar .shopinfo .shop-contents:after {
     content: '';
     display: block;
